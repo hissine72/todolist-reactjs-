@@ -1,0 +1,116 @@
+.done{
+  /* background-color: red; */
+  text-decoration: line-through;
+  cursor: pointer;
+}
+.App{
+  text-align: center;
+  border: 1px solid #ccc;
+  width: 500px;
+  margin: 20px auto;
+}
+.address{
+  text-transform: capitalize;
+  font-weight: normal;
+}
+.parent{
+
+  padding: 10px 0;
+  background-color: #0096878e;
+}
+.parent input{
+  outline: none;
+  padding: 5px 3px ;
+  width: 300px;
+  margin-bottom: 7px;
+  background-color: #009688;
+  border: 1px solid #009688;
+  color: white;
+}
+.parent button{
+ border-radius: 50%;
+ -webkit-border-radius: 50%;
+ -moz-border-radius: 50%;
+ -ms-border-radius: 50%;
+ -o-border-radius: 50%;
+ cursor: pointer;
+ background-color: white;
+ font-size: 30px;
+ border: 1px solid white;
+ color: #009688;
+position: relative;
+right:  20px;
+top: 4px;
+}
+.delete{
+  background-color: #ccc;
+  padding: 5px 5px;
+
+}
+.delete .del{
+  display: flex;
+  justify-content: space-between;
+  width: 340px;
+ 
+  margin: 0 auto;
+  padding: 0 5px;
+  
+  background-color: white;
+
+}
+.delete .del button{
+ background-color: #E91E63;
+ height: 20px;
+ position: relative;
+ top: 17px;
+ margin-right: 5px;
+ color: white;
+ cursor: pointer;
+ border: 1px solid #E91E63;
+ border-radius:5px ;
+ -webkit-border-radius:5px ;
+ -moz-border-radius:5px ;
+ -ms-border-radius:5px ;
+ -o-border-radius:5px ;
+}
+.parent span{
+  border: 1px solid red;
+}
+
+.notdone:hover{
+  cursor: pointer;
+}
+.update{
+  /* border: 3px solid darkcyan; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.update input{
+  margin-left: 72px;
+  outline: none;
+  text-transform: capitalize;
+  padding: 3px 4px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.update button{
+  margin-right: 80px;
+  background-color: #E91E63;
+text-transform: capitalize;
+ color: white;
+ cursor: pointer;
+ width: 40px;
+ border: 1px solid #E91E63;
+ border-radius:5px ;
+}
+.error{
+  padding-right: 210px;
+  color: red;
+  text-transform: capitalize;
+}
